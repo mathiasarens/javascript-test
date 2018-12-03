@@ -4,7 +4,7 @@ module.exports = {
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 5
+        "ecmaVersion": 6
     },
     "rules": {
         "indent": [
@@ -15,13 +15,16 @@ module.exports = {
             "error",
             "unix"
         ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+        // "quotes": [
+        //     "error",
+        //     "double",
+        //     { "allowTemplateLiterals": true }
+        // ],
+        // "semi": [
+        //     "error",
+        //     "always"
+        // ],
+        "no-unexpected-multiline": "error",
+        "global-require": "error"
     }
 };
