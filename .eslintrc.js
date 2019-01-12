@@ -24,6 +24,7 @@ module.exports = {
         //     "error",
         //     "always"
         // ],
+        "no-console": ["off"],
         "no-unexpected-multiline": "error",
         "global-require": "error"
     }
